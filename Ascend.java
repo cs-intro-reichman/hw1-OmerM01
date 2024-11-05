@@ -2,6 +2,11 @@
 // and prints them in increasing order.
 public class Ascend {
 	public static void main(String[] args) {
-		// Replace this comment with your code
+		int randMax = Integer.parseInt(args[0]);
+		double a = Math.random() * randMax;
+		double b = Math.random() * randMax;
+		double c = Math.random() * randMax;
+
+		System.out.println(a + " " + b + " " + c);
 	}
 }
